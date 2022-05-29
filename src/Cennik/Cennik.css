@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=IM+Fell+Great+Primer&display=swap');
+
+
+
+@media  screen and (max-width:700px) {
+    .cen-main{
+        flex-direction: column;
+    }
+    .bar{
+        min-width: 100%;
+    }
+}
+
+
+.cen-main{
+    width: 100vw;
+    display: flex;
+}
+.bar{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+   
+}
+.bar h1{
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 3rem;
+    margin-bottom: 5%;
+    
+}
+.podmenu{
+    padding: 5px;
+    font-size: 2rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.bar p{
+    font-family: 'IM Fell French Canon SC', serif;
+}

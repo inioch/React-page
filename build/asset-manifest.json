@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/girsplace/static/css/main.f3e547fd.css",
+    "main.js": "/girsplace/static/js/main.07e5b2e9.js",
+    "static/media/diamoncik.png": "/girsplace/static/media/diamoncik.db44f041131a44eb15f1.png",
+    "static/media/Mapa.PNG": "/girsplace/static/media/Mapa.6889bacc091db9c5d5ce.PNG",
+    "static/media/placeholder.jpg": "/girsplace/static/media/placeholder.7a2cbbda8a6a8e910206.jpg",
+    "index.html": "/girsplace/index.html",
+    "main.f3e547fd.css.map": "/girsplace/static/css/main.f3e547fd.css.map",
+    "main.07e5b2e9.js.map": "/girsplace/static/js/main.07e5b2e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3e547fd.css",
+    "static/js/main.07e5b2e9.js"
+  ]
+}

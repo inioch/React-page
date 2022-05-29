@@ -1,0 +1,9 @@
+.onasmain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.placeholder{
+    width: 30%;
+    margin: 5px;
+}
