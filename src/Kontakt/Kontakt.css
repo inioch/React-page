@@ -1,23 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=IM+Fell+Great+Primer&display=swap');
 
 @media screen and (max-width:800px) {
-    main{
+    .mains {
         flex-direction: column;
     }
-    .left, .side{
+
+    .left,
+    .side {
         min-width: 100%;
     }
 }
 
-.main{
+.mains {
     display: flex;
     width: 100vw;
 }
-.map{
-    width: 100%;
+
+.map {
+    width: 80%;
     margin: 2rem;
 }
-.left{
+
+.left {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -25,7 +29,8 @@
     align-items: center;
     font-size: 2rem;
 }
-.right{
+
+.right {
     width: 50%;
     display: flex;
     font-size: 2rem;
@@ -35,21 +40,30 @@
     flex-direction: column;
 }
 
-.right p, h3{
+.right p,
+h3 {
     font-family: 'IM Fell French Canon SC', serif;
     margin-bottom: 0.75rem;
 }
-.right h3{
+
+.right h3 {
     font-family: 'IM Fell Great Primer', serif;
 }
-.left a{
-    font-family: 'IM Fell Great Primer', serif; 
+
+.left a {
+    font-family: 'IM Fell Great Primer', serif;
+    text-decoration: none;
+    color: black;
 }
-.left a:hover{
+
+.left a:hover {
     color: rgb(44, 133, 221);
     transition: 1s ease;
 }
-.hrefs{
+
+.hrefs {
+    text-decoration: none;
+    color: black;
     font-family: 'IM Fell French Canon SC', serif;
     margin-bottom: 0.75rem;
 }

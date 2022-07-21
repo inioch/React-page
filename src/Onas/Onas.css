@@ -1,9 +1,10 @@
-.onasmain{
+.onasmain {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.placeholder{
+
+.placeholders {
     width: 30%;
     margin: 5px;
 }
